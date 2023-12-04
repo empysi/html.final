@@ -1,0 +1,29 @@
+body {background-color:blue;
+hr{
+ color.black;
+}
+.image-containe{
+   display: flex;
+    justify-content: space-between;
+    
+}
+.colum-imagr{
+  width:30%;
+  box-sizing:
+  margin: 0 1%
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285f4;  /* Google's blue color */
+    color: #ffffff;             /* White text color */
+    text-decoration: none;      /* Removes the default underline from links */
+    border-radius: 4px;         /* Rounded corners */
+    font-weight: bold;          /* Bold text */
+    transition: background-color 0.3s ease;  /* Smooth transition effect when hovering */
+}
+
+.btn-link:hover {
+    background-color: #357ab7;  /* Slightly darker blue when hovering */
+}
